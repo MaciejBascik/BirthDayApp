@@ -102,7 +102,7 @@ function Form({list, setPeople}) {
       <button className="bg-violet-500 hover:bg-violet-400 text-white font-bold py-2 px-4 border-b-4 border-violet-700 hover:border-violet-500 rounded" onClick={() => {
           setNewList([
               ...list, 
-              {id: NewList.id++,name: newName, birthday: newBirth, image:`https://picsum.photos/id/${random}/400/600`,age: newAge}
+              {id: NewList.id++,name: newName, birthday: newBirth, image:`https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg`,age: newAge}
           ]);
       }}>Dodaj</button>
       {setPeople(NewList)}
