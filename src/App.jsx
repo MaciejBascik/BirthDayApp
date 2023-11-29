@@ -91,7 +91,7 @@ function Form({list, setPeople}) {
   const [newBirth,setNewBirth] = useState('');
   const [newAge,setNewAge] = useState('');
   const [NewList,setNewList] = useState(list);
-  let random = Math.floor(Math.random()*100) + 1;
+  let random = Math.floor(Math.random()*30);
   return (
 
   <div>
